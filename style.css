@@ -1,0 +1,76 @@
+h1{
+ text-align: center;
+ position: relative;
+ color: rgb(243, 208, 11);
+}
+.container{
+    background-color: rgb(28, 194, 16);
+    padding: 10px;
+    
+}
+
+.container2{
+
+    height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 80px;
+
+}
+ 
+img{
+    height: 180px;
+    border-radius: 100%;
+    width: 280px;
+    align-items: center;
+    display: flex;
+
+}
+
+
+.choices{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+.youcomputer{
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.you{
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.computer{
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+  }
+
+
+#user-score,
+#comp-score {
+  font-size: 4rem;
+}
